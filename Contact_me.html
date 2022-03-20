@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contact Details</title>
+  <style>
+    table,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 20px;
+      width: 800px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <table>
+    <tr>
+      <td>
+        My <a href="https://www.facebook.com/hatsune.jin/">Facebook</a>
+      </td>
+      <td>
+        Landline: 999
+      </td>
+      <td>
+        Email: tohleng@hotmail.com
+      </td>
+    </tr>
+  </table>
+  <br>
+  <hr>
+  <h2>Introduce yourself!</h2>
+  <form class="" action="mailto:tohleng@hotmail.com" method="post" enctype="text/plain">
+    <label>Your name:</label>
+    <input type="text" name="Your name" value=""><br>
+    <label for="">Your Gender :</label>
+    <label for="">Male</label>
+    <input type="radio" name="Gender" value="Male">
+    <label for="">Female</label>
+    <input type="radio" name="Gender" value="Female"><br>
+    <label for="">Your Age :</label>
+    <input type="number" name="Age" value="" min="0" max="999"><br>
+    <label for="">How depressed are you?</label>
+    <input type="range" name="depressed" value=""><br>
+    <label for="">Horny? </label>
+    <input type="checkbox" name="Horny" value="yes"><br>
+    <label for="">Details about Yourself:</label><br>
+    <textarea name="Details" rows="8" cols="80"></textarea><br>
+    <label for="">Your Email:</label>
+    <input type="email" name="Your Email" value=""><br>
+    <input type="submit" name="">
+  </form>
+  <hr>
+</body>
+
+</html>
